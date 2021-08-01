@@ -1,0 +1,72 @@
+@media(max-width: 990px){
+	body > section > div.container > div > div:nth-child(1){
+		padding-inline: 0;
+		
+}
+body > section > div.container > div > div:nth-child(2) > a > img{
+	height: 50px;
+    width: 262px;
+    margin-left: -46px;
+}
+body > section > div.container > div > div:nth-child(1) > img{
+	height: 50px;
+}
+}
+
+/*responsive registration form css start*/
+@media(max-width: 990px){
+
+  .registration{
+ max-width: 85%;
+ margin-bottom: 15rem;
+ margin-top: 4rem;
+}
+form .rg-details .rg-input {
+    margin-bottom: 20px;
+  width: 100%;
+}
+form .gender-detail .category{
+    width: 130%;
+}
+.registration form .rg-details{
+   max-height: 300px;
+   overflow-y: scroll;
+}
+.rg-details::-webkit-scrollbar{
+	width: 0;
+}
+form .rg-button input {
+    height: 100%;
+    width: 100%;
+    }
+  .cancel-button input {
+    height: 100%;
+    width: 100%;
+    }  
+}
+
+ @media (min-width: 1200px){
+.smm-contanier{
+    max-width: 1140px;
+}
+
+}
+/*responsive registration form css end*/
+/*-------- smm contact section start responsive css*/
+
+@media(max-width: 991px){
+    .smm-contact{
+        padding: 50px;
+    }
+    .smm-container{
+        flex-direction: column;
+    }
+    .smm-Info{
+        margin-bottom: 40px;
+        width: 100%;
+
+    } 
+    .smm-form{
+        width: 130%;
+    }
+}
